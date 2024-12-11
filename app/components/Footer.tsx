@@ -34,7 +34,7 @@ export default function Footer() {
             <div className="flex justify-center gap-4 mt-4">
               {/* Social Links */}
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/profile.php?id=100009435090350&mibextid=ZbWKwL"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Visit our Facebook page"
