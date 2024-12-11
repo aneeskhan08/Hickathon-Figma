@@ -2,12 +2,12 @@ import React from "react";
 import Image from "next/image";
 import {
   FaFacebookF,
-  FaPaypal,
-  FaCcVisa,
-  FaCcMastercard,
-  FaCcAmex,
+  FaTwitter,
+  FaInstagram,
+  FaPinterestP,
+  FaYoutube,
 } from "react-icons/fa";
-
+import { FaPaypal, FaCcVisa, FaCcMastercard, FaCcAmex } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer className="bg-white border-t border-gray-200 px-4 sm:px-12 md:px-28">
@@ -43,6 +43,38 @@ export default function Footer() {
                 <FaFacebookF />
               </a>
               {/* Repeat for other icons */}
+               <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-[#007580] text-xl p-2 border-2 border-transparent rounded-full hover:border-[#007580]"
+              >
+                <FaTwitter />
+              </a>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-[#007580] text-xl p-2 border-2 border-transparent rounded-full hover:border-[#007580]"
+              >
+                <FaInstagram />
+              </a>
+              <a
+                href="https://pinterest.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-[#007580] text-xl p-2 border-2 border-transparent rounded-full hover:border-[#007580]"
+              >
+                <FaPinterestP />
+              </a>
+              <a
+                href="https://youtube.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-[#007580] text-xl p-2 border-2 border-transparent rounded-full hover:border-[#007580]"
+              >
+                <FaYoutube />
+              </a>
             </div>
           </div>
 
