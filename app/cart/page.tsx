@@ -95,9 +95,15 @@ const Cart = () => {
               <p className="text-xl font-bold">Total</p>
               <p className="text-xl font-bold">$198.00</p>
             </div>
-            <button className="w-[334.67px] h-[60px] rounded-[30px] text-white bg-[#029FAE]">
-              Member Checkout
+            <a
+                href="https://wa.me/qr/2AXT6IXF7GF7L1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+            <button className="w-[334.67px] h-[60px] rounded-[30px] text-white bg-[#029FAE] hover:text-[#2d868f]  hover:bg-[#cfe7e8] md:font-bold">
+              Checkout my Whatsapp
             </button>
+            </a>
           </div>
         </div>
       </div>
